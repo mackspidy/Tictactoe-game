@@ -1,0 +1,23 @@
+body{
+    background-color: #82A7A6;
+}
+.tictacto-wrap .container {
+    height: 70vh;
+}
+.box-wrap {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vmin;
+    margin: 0 auto;
+}
+.box {
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: rgb(138, 8, 8);
+}
